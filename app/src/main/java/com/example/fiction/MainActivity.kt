@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
         webSettings.databaseEnabled = true
         // 设置 WebView 的缓存模式
         webSettings.cacheMode = WebSettings.LOAD_DEFAULT
-        webSettings.cacheMode = WebSettings.LOAD_NO_CACHE
+//        webSettings.cacheMode = WebSettings.LOAD_NO_CACHE
 
         webView.setOnKeyListener(object : View.OnKeyListener {
             override fun onKey(v: View, keyCode: Int, event: KeyEvent): Boolean {
@@ -269,7 +269,7 @@ class MainActivity : AppCompatActivity() {
 //        webView.loadUrl("http://192.168.88.107/Fiction/?ProxyUrl=http://192.168.88.107/ProxyCrossDomain/&Model=biquguan&ModelUrl=http://192.168.88.107/Fiction/JavaScript/model/biquguan.js")
 //        webView.loadUrl("http://192.168.88.107/Fiction/")
 //        webView.loadUrl("http://192.168.1.220/Fiction/?ProxyUrl=http://192.168.1.220/ProxyCrossDomain/&Model=mingzhuxiaoshuo&ModelUrl=http://192.168.1.220/Fiction/JavaScript/model/mingzhuxiaoshuo.js")
-        webView.loadUrl("https://fictionpi.kekxv.com/New")
+        webView.loadUrl("https://fictionpi.kekxv.com/")
 
     }
 
